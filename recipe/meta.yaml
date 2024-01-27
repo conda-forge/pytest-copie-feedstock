@@ -1,5 +1,5 @@
 {% set name = "pytest-copie" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest_copie-{{ version }}.tar.gz
-  sha256: 7b3182af78af35d5724dd26dbb2fca1d7868c13fe4326262b3ce7b5ab8159f7e
+  sha256: 4a95bb7d4ded6183bf9b1da8cce5b79ad3b4db1b1a8909d2ea6d87e491c76749
 
 build:
   noarch: python
